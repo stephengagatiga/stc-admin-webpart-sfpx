@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "stc-admin-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/stcAdmin/StcAdminWebPart.js",
+          "manifest": "./src/webparts/stcAdmin/StcAdminWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "StcAdminWebPartStrings": "lib/webparts/stcAdmin/loc/{locale}.js"
+  }
+}

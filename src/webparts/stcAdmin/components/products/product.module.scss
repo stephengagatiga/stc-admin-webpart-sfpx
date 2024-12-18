@@ -1,0 +1,19 @@
+
+.products {
+    padding: 0px;
+    margin: 0px;
+
+    .productsHeader {
+        display: flex;
+        flex-direction: row;
+
+        div {
+            &:last-of-type {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: auto;
+            }
+        }
+    }
+}

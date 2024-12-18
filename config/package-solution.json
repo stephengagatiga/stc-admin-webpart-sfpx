@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "stc-admin-web-part-client-side-solution",
+    "id": "2f2830b7-2353-4b4e-9b9d-3990c18bfc07",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/stc-admin-web-part.sppkg"
+  }
+}

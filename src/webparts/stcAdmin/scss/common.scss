@@ -1,0 +1,129 @@
+@import './variables.scss';
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rowTop {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.rowRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.leftAuto {
+   margin-left: auto; 
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.flexGrow1 {
+    flex-grow: 1;
+}
+
+.subtleText {
+    color: $subtle-color;
+}
+
+.listWithOptions {
+
+    li {
+
+        p {
+            margin: 0px;
+            padding: 2px;
+        }
+        
+        div {
+            display: none;
+        }
+        
+        &:hover {
+
+            div {
+                display: block;
+            }
+        }
+    }
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.list {
+    padding-left: 5px;
+
+    li {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid $subtle-color;
+    }
+}
+
+h1 {
+    font-family: $font;
+}
+
+i {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 0.7em;
+    color: $subtle-color;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+
+    td {
+        padding: 5px 2px;
+    }
+
+    tr {
+        border-bottom: 1px solid $subtle-color;
+    }
+
+    thead {
+        tr{
+            &:first-of-type {
+                border-bottom: none;
+                background-color: $subtle-color;
+                td {
+                    color: white;
+                }
+            }
+        }
+
+        td {
+            color: $subtle-color;
+        }
+    }
+
+    tbody {
+        tr {
+            &:hover {
+                cursor: pointer;
+                background-color: $primary-color;
+
+                td {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.littleLink {
+    font-size: 0.7em;
+}

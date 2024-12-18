@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.7.1",
+    "libraryName": "stc-admin-web-part",
+    "libraryId": "2f2830b7-2353-4b4e-9b9d-3990c18bfc07",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

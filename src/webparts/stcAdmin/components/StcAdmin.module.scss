@@ -1,0 +1,15 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.stcAdmin {
+  padding: 0px;
+  marigin: 0px;
+}
+
+.menuBreadcrumbs {
+  li {
+    color: blue;
+    &:last-of-type {
+      color: black;
+    }
+  }
+} 
